@@ -1,8 +1,10 @@
 public class ProjetoGraos {
 
     public static void main(String[] args) {
-        int casas = 64; // Total de casas no tabuleiro de xadrez
-        long totalGrãos = 1; // Começa com 1 grão no primeiro quadro
+        // Total de casas no tabuleiro de xadrez
+        int casas = 64; 
+         // Começa com 1 grão no primeiro quadro
+        long totalGrãos = 1;
 
         for (int i = 2; i <= casas; i++) {
             totalGrãos *= 2; // Dobra a quantidade de grãos em cada quadro
